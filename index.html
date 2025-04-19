@@ -55,7 +55,7 @@
                 </nav>
                 <button class="header__accaunt" aria-label="Личный кабинет" aria-expanded="false" aria-controls="login-modal">
                     <img src="./assets/icons/components/Header/UserLogin.svg" alt="Иконка входа в личный кабинет" class="header__accaunt-icon" width="24" height="24">
-                    <p class="header__accaunt-text">Войти</p>
+                    <a href="tel:+79677310746" itemprop="telephone">+7 (967) 731-07-46</a>
                 </button>
 
 
@@ -100,7 +100,7 @@
                 </nav>
                 <button class="menu__accaunt" aria-label="Личный кабинет" aria-expanded="false" aria-controls="login-modal">
                     <img src="./assets/icons/components/Header/UserLogin.svg" alt="Иконка входа в личный кабинет" class="menu__accaunt-icon" width="24" height="24">
-                    <p class="menu__accaunt-text">Войти</p>
+                    <a href="tel:+79677310746" itemprop="telephone">+7 (967) 731-07-46</a>
                 </button>
             </div>
             <div class="menu-company">
@@ -952,19 +952,36 @@
 
                         <ul class="footer-item-list" role="list" aria-label="Социальные сети">
                             <li class="footer-item-li" role="listitem">
-                                <a href="#" class="footer-item-block" aria-label="Telegram" itemprop="sameAs">
-                                    <img src="./assets/icons/components/FooterSocial/Telegramm.svg" alt="Telegram" class="footer-item-icon" width="20" height="20">
-                                </a>
+                               <div class="footer-item-content">
+                                    <div class="footer-item-block" aria-label="Telegram" itemprop="sameAs">
+                                        <img src="./assets/icons/components/FooterSocial/Telegramm.svg" alt="Telegram" class="footer-item-icon" width="20" height="20">
+                                    </div>
+
+                                    <span class="footer-item-li-hidden">
+                                        <a href="#" class="footer-item-li-hidden_link">Telegramm</a>
+                                    </span>
+                                </div>
                             </li>
                             <li class="footer-item-li" role="listitem">
-                                <a href="#" class="footer-item-block" aria-label="ВКонтакте" itemprop="sameAs">
-                                    <img src="./assets/icons/components/FooterSocial/VKontakte.svg" alt="ВКонтакте" class="footer-item-icon" width="20" height="20">
-                                </a>
+                                <div class="footer-item-content">
+                                    <div href="#" class="footer-item-block" aria-label="ВКонтакте" itemprop="sameAs">
+                                        <img src="./assets/icons/components/FooterSocial/VKontakte.svg" alt="ВКонтакте" class="footer-item-icon" width="20" height="20">
+                                    </div>
+                                    <span class="footer-item-li-hidden">
+                                        <a href="#" class="footer-item-li-hidden_link">Vkontakte</a>
+                                    </span>
+                                </div>
                             </li>
                             <li class="footer-item-li" role="listitem">
-                                <a href="#" class="footer-item-block" aria-label="WhatsApp" itemprop="sameAs">
-                                    <img src="./assets/icons/components/FooterSocial/WhatApp.svg" alt="WhatsApp"  class="footer-item-icon" width="20" height="20">
-                                </a>
+                                <div class="footer-item-content">
+                                    <div href="#" class="footer-item-block" aria-label="WhatsApp" itemprop="sameAs">
+                                        <img src="./assets/icons/components/FooterSocial/WhatApp.svg" alt="WhatsApp"  class="footer-item-icon" width="20" height="20">
+                                    </div>
+                                    <span class="footer-item-li-hidden">
+                                        <a href="#" class="footer-item-li-hidden_link">WhatApp</a>
+                                    </span>
+                                </div>
+                                
                             </li>
                         </ul>
                     </div>
@@ -1146,6 +1163,7 @@
                
             </div>
         </div>
+
         <script src="./js/script.js"></script>
     </body>
 </html>
